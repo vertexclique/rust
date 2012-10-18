@@ -11,6 +11,6 @@ struct Kitty {
 }
 
 fn main() {
-    assert (size_of::<Cat>() == 8 as uint);
-    assert (size_of::<Kitty>() == 16 as uint);
+    assert (size_of::<Cat>() == size_of::<int>());
+    assert (size_of::<Kitty>() == size_of::<(int, i8)>());
 }
