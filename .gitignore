@@ -88,3 +88,5 @@ build/
 i686-pc-mingw32/
 src/librustc/lib/llvmdeps.rs
 *.pot
+BUILDROOT/
+*.sublime*
